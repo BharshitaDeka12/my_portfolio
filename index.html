@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharshita's-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Balthazar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a19ba4ed68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js"></script>
+
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">Bharshita's Portfolio</div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,I am <span class="purple">Bharshita </span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bgpw.jpeg">
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about1"><img src="pic2.jpeg"></div>
+                    <div class="about2">
+                        <h1 class="subtitle"> About Me</h1>
+                        <p>Welcome to my portfolio! I am currently pursuing BTech in Maths and Computing at the
+                            prestigious IIT Guwahati, driven by a passion for technology and innovation.I am also deeply
+                            interested in the realm of finance.
+                            Beyond the
+                            classroom, I am deeply engaged in expanding my skills in coding and technology development.
+                            I thrive on challenges that push me to innovate and solve complex problems.
+
+
+                        </p>
+                        <p>
+                            Outside of my tech pursuits, I am an active member of the Finesse Club, where I channel my
+                            creativity through art.This involvement has not
+                            only enriched my personal growth but also strengthened my ability to collaborate effectively
+                            in diverse teams.
+
+
+                        </p>
+                        <div class="tabtitle">
+                            <p class="tablinks active" onclick="opentab('skills')">Skills</p>
+                            <p class="tablinks" onclick="opentab('education')">Education</p>
+                            <p class="tablinks" onclick="opentab('extracurriculars')">Extracurriculars</p>
+                        </div>
+                        <div class="tabcontents activetab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>C/C++/Python</li>
+                                <li><span>Web Development</span><br>HTML/CSS/JS</li>
+                                <li><span>Finance</span><br>Options,Derivatives,etc;</li>
+                            </ul>
+                        </div>
+                        <div class="tabcontents" id="education">
+                            <ul>
+                                <li><span>2010-2020</span><br>Schooling from Sri Chaitanya School</li>
+                                <li><span>2021-2023</span><br>Intermediate Education from Sri Chaitanya College(Gayatri
+                                    Vedavyas)</li>
+                                <li><span>2023-2027</span><br>BTech from IIT Guwahati</li>
+                            </ul>
+                        </div>
+                        <div class="tabcontents" id="extracurriculars">
+                            <ul>
+                                <li><span>Team member</span><br>Finesse Club,IITG</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="achievements">
+            <div class="container">
+                <h1 class="subtitle">My Achievements</h1>
+                <div class="serviceslist">
+                    <div>
+                        <i class="fa-solid fa-dna"></i>
+                        <h2>Dr.AS Rao STSE Exam</h2>
+                        <p>Emerged as a state topper by securing a state rank 7 among 50k participants and was enlisted
+                            to merit prize</p>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-calculator"></i>
+                        <h2>IOQM</h2>
+                        <p>Qualified in IOQM 2022 exam and was awarded a merit certificate for the same.This exam tested
+                            in-depth knowledge in mathematics</p>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-flask-vial"></i>
+                        <h2>IOQC</h2>
+                        <p>Successfully cleared the IOQC exam and achieved the distinction of state topper which
+                            reflects my dedication of mastering the subject of Chemistry</p>
+
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-flask"></i>
+
+                        <h2>AP EAMCET</h2>
+                        <p>Cleared the AP State entrance exam,EAMCET,with a focus on mathematics, physics, and
+                            chemistry, achieving a state rank of 218 among 0.2million candidates</p>
+
+                    </div>
+                    <div class="logo">
+                        <i class="fa-solid fa-atom"></i>
+
+                        <h2>JEE MAIN</h2>
+                        <p>Cleared the JEE MAIN exam and secured an All India Rank of 1758.This exam along with focus in
+                            Math,Physics and Chemistry, also tested time-management and fast problem-solving ability
+                        </p>
+
+                    </div>
+                    <div class="logo">
+
+                        <i class="fa-solid fa-brain"></i>
+                        <h2>JEE ADVANCED </h2>
+                        <p>Cleared the JEE ADVANCED exam(world's second toughest exam) and secured an All India Rank of
+                            2156.This exam tested in-depth knowledge in Math,Physics and Chemistry and also skills like
+                            problem-solving skills,time-management,etc; </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="projects">
+            <div class="container">
+                <h1 class="subtitle">My Projects </h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="i1.png">
+                        <div class="layer">
+                            <h3>My Portfolio Website</h3>
+                            <p>
+                                Created my own portfolio website using HTML,CSS and JS
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="editd.png">
+                        <div class="layer">
+                            <h3>Black Scholes Model</h3>
+                            <p>
+                                Checked whether Black Scholes Model works on the SP 500 index
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="sma.jpeg">
+                        <div class="layer">
+                            <h3>My Social Media App</h3>
+                            <p>Created my own social media app</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="hobbyhead">
+            <div class="subtitle">
+                <h1 class="subtitle"> My Hobbies</h1>
+                <div class="text">Hobbies play a vital role in my life, providing a welcome escape from the daily
+                    routine
+                    and a chance to pursue interests that bring joy and fulfillment. Whether it's reading novels or
+                    exploring new worlds,each hobby
+                    offers its own unique rewards. Engaging in these activities not only relaxes me but
+                    also stimulates creativity and personal growth.They are
+                    avenues for self-expression, exploration, and continuous learning, enriching my life with
+                    experiences that shape who I am.
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="body1">
+            <div id="hobbies" class="container1">
+
+                <div class="card">
+                    <div class="image">
+                        <img src="spotify logo.png">
+                    </div>
+                    <h2>Listening music</h2>
+                    <p>Music isn't just my hobby; it's my passion. From classical to pop, I find inspiration in
+                        exploring diverse genres. My love for music enriches my creativity and influences my approach to
+                        design, adding rhythm and harmony to my work.
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="yt.png">
+                    </div>
+                    <h2>YT Learning</h2>
+                    <p>I use YouTube to learn about tech-related topics and also as a source of entertainment. It's
+                        where I dive into programming tutorials and explore the latest tech innovations. Additionally,
+                        YouTube offers a diverse range of content that keeps me entertained, from tech reviews to
+                        humorous videos.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="coding.jpeg">
+                    </div>
+                    <h2>Coding</h2>
+                    <p>Coding is a hobby I enjoy exploring. From solving problems with algorithms to building creative
+                        projects, I find joy in the challenges and the endless possibilities that coding offers.
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="books.jpeg">
+                    </div>
+                    <h2>Reading Books</h2>
+                    <p>Reading books is my hobby and passion. Whether I'm immersed in a thrilling novel, learning from
+                        insightful non-fiction, or exploring new ideas in poetry, books are my gateway to endless
+                        inspiration and imagination.
+
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="travellogo.png">
+                    </div>
+                    <h2>Travelling</h2>
+                    <p>Traveling is my passion. Exploring new places, experiencing different cultures, and discovering
+                        hidden treasures are what excite me the most. It's not just about visiting landmarks but also
+                        about connecting with people and embracing the diversity our world offers.
+
+
+
+                    </p>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>bharshita2005@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/bharshita_d" <i
+                                class=" fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/bharshita-deka-5a9b28282?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2BwDOUY3JRqS4tRj8KFuERQ%3D%3D"
+                                <i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100094315464094&mibextid=LQQJ4d" <i
+                                class=" fa-brands fa-facebook"></i></a>
+
+                        </div>
+                        <a href="My Cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form action="backend.php">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p> Created by Bharshita|&#169 2024-All Rights Reserved </p>
+            </div>
+
+
+        </section>
+
+
+
+
+    </main>
+</body>
+
+</html>.
